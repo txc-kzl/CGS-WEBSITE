@@ -1,0 +1,69 @@
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(0, 0, 0) 0.1rem solid;
+    border-color: rgb(0, 0, 0);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+  }
+  
+  /* FOOTER SECTION */
+  
+  footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
